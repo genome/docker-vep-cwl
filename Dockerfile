@@ -1,4 +1,4 @@
-FROM mgibio/vep:v86
+FROM mgibio/vep:v87
 
 ENTRYPOINT []  #clear the inherited entrypoint
-CMD ["/usr/bin/perl", "/usr/bin/variant_effect_predictor.pl"]
+CMD ["/usr/bin/perl", "/usr/bin/vep.pl"]
